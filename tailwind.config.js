@@ -2,7 +2,11 @@
 export default {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'custom-pink': '#EF476F',
+      },
+    },
   },
   plugins: [],
 }
