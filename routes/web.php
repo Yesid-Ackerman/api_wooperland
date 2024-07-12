@@ -7,3 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/log',[LoginController::class,'create']);
+Route::get('/store',[LoginController::class,'store']);
