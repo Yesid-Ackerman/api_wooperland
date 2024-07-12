@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 Route::get('/log',[LoginController::class,'create']);
 Route::get('/store',[LoginController::class,'store']);
+Route::get('/article',[LoginController::class,'index']);
