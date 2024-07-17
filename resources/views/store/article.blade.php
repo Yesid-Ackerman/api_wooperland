@@ -9,50 +9,70 @@
     <title>Document</title>
     @vite('resources/css/app.css')
 </head>
-<body class="flex flex-col" style="font-family: 'Happy Monkey', sans-serif">
+<body class="flex flex-col min-h-screen bg-[url('/public/img/image1.png')] bg-cover bg-center" style="font-family: 'Happy Monkey', sans-serif">
     <nav class="bg-[#EF476F] h-24 flex pr-12 pl-12 items-center">
         <div class="w-1/2">
-            <button class="items-center justify-center border-y-2 border-black rounded-full bg-white">
+            <button class="items-center justify-center">
                 <svg class="h-12 w-12 text-neutral-900"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
                 </svg>
             </button>
         </div>
         <span class="inline-grid grid-cols-4 gap-4 w-1/2">
-            <span class="bg-white text-center rounded-lg h-12 text-3xl flex items-center justify-center cursor-pointer">
+            <span class="bg-[#BAEC9D] text-center rounded-lg h-12 text-3xl flex items-center justify-around cursor-pointer">
                 <i class="fas fa-trophy mr-2"></i> Logros
             </span>
-            <span class="bg-[#87C9FF] text-center rounded-lg h-12 text-3xl flex items-center justify-between cursor-pointer">
+            <span class="bg-[#87C9FF] text-center rounded-lg h-12 text-3xl flex items-center justify-around cursor-pointer">
                 <i class="fas fa-medal mr-2"></i> Medallas
             </span>
-            <span class="bg-[#FFFFF6] text-center rounded-lg h-12 text-3xl flex items-center justify-end cursor-pointer">
+            <span class="bg-[#FFFFF6] text-center rounded-lg h-12 text-3xl flex items-center justify-around cursor-pointer">
                 <i class="fas fa-gem mr-2"></i> Diamantes
             </span>
-            <span class="bg-[#BAEC9D] text-center rounded-lg h-12 text-3xl flex items-center justify-around cursor-pointer">
-                <i class="fas fa-user mr-2"></i> UsuariO
+            <span class=" border-solid border-black border-2 text-center rounded-lg h-12 text-3xl flex items-center justify-around cursor-pointer">
+                <i class="fas fa-user mr-2"></i> Usuario
             </span>
-        </span>
     </nav>
-    <main class="min-h-[80vh] bg-blue-400 flex justify-start items-center">
-        <div class="w-1/6 flex flex-col justify-center items-center">
+    <main class="min-h-[80vh]  flex items-center">
+        <section class="w-1/6 flex flex-col  items-center">
             <span class="grid grid-rows-4 grid-flow-col gap-y-16 w-2/3 h-1/2 items-center">
                 <span class="bg-[#F6CE48] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
-                    <i class="fas fa-trophy mr-2"></i> CABEZA
+                    <i class="fas fa-trophy mr-2"></i> ATRIBUTO 1
                 </span>
                 <span class="bg-[#F6CE48] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
-                    <i class="fas fa-medal mr-2"></i> ROSTRO
+                    <i class="fas fa-medal mr-2"></i> ATRIBUTO 2
                 </span>
                 <span class="bg-[#F6CE48] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
-                    <i class="fas fa-gem mr-2"></i> TORZO
+                    <i class="fas fa-gem mr-2"></i> ATRIBUTO 3
                 </span>
                 <span class="bg-[#F6CE48] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
-                    <i class="fas fa-user mr-2"></i> ACCESORIO
+                    <i class="fas fa-user mr-2"></i> ATRIBUTO 4
                 </span>
             </span>
-        </div>
+        </section>
+        <section class="w-4/6 flex justify-center items-center">
+            <div class="grid grid-rows-3 grid-cols-5 gap-4">
+                
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">1</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">2</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">3</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">4</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">5</div>
+                
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">1</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">2</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">3</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">4</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">5</div>
+                
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">1</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">2</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">3</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">4</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">5</div>
+            </div>
+        </section>
     </main>    
-    </main>
-    <footer class="bg-[#FFD116] h-24 flex justify-center items-center text-6xl">
+    <footer class="bg-[#FFD116] bg-opacity-80 flex flex-auto justify-center items-center text-6xl">
         <h1 class="text-black">WOOPERLAND</h1>
     </footer>
 </body>

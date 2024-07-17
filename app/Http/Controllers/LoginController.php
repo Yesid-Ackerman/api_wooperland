@@ -12,7 +12,7 @@ class LoginController extends Controller
      */
     public function index()
     {
-        return view('store.article');
+        //
     }
 
     /**
@@ -28,7 +28,7 @@ class LoginController extends Controller
      */
     public function store(Request $request)
     {
-        return view('store.store');
+        //
     }
 
     /**
