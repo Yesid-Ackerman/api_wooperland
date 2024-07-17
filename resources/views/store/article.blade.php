@@ -35,45 +35,44 @@
     <main class="min-h-[80vh]  flex items-center">
         <section class="w-1/6 flex flex-col  items-center">
             <span class="grid grid-rows-4 grid-flow-col gap-y-16 w-2/3 h-1/2 items-center">
-                <span class="bg-[#F6CE48] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
-                    <i class="fas fa-trophy mr-2"></i> ATRIBUTO 1
+                <span class="bg-[#99e2b3] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
+                CLASICO
                 </span>
-                <span class="bg-[#F6CE48] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
-                    <i class="fas fa-medal mr-2"></i> ATRIBUTO 2
+                <span class="bg-[#b2f3e3] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
+                NUEVO
                 </span>
-                <span class="bg-[#F6CE48] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
-                    <i class="fas fa-gem mr-2"></i> ATRIBUTO 3
+                <span class="bg-[#d7a3fb] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
+                ESPECIAL
                 </span>
-                <span class="bg-[#F6CE48] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
-                    <i class="fas fa-user mr-2"></i> ATRIBUTO 4
+                <span class="bg-[#a496c8] text-center rounded-lg h-16 w-full text-3xl flex items-center justify-center cursor-pointer border-2 border-black">
+                LEGENDARIO
                 </span>
             </span>
         </section>
         <section class="w-4/6 flex justify-center items-center">
-            <div class="grid grid-rows-3 grid-cols-5 gap-4">
+            <div class="grid grid-rows-3 grid-cols-5 gap-4">                
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">1</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">2</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">3</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">4</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">5</div>
                 
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">1</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">2</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">3</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">4</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">5</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">1</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">2</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">3</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">4</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">5</div>
                 
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">1</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">2</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">3</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">4</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">5</div>
-                
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">1</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">2</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">3</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">4</div>
-                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl">5</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">1</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">2</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">3</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">4</div>
+                <div class="bg-white text-center rounded-lg h-40 w-40 border-4 border-black  flex flex-col justify-center font-light  cursor-pointer text-3xl bg-opacity-50">5</div>
             </div>
         </section>
     </main>    
     <footer class="bg-[#FFD116] bg-opacity-80 flex flex-auto justify-center items-center text-6xl">
-        <h1 class="text-black">WOOPERLAND</h1>
+        <h1 class="text-black">TIENDA</h1>
     </footer>
 </body>
 </html>

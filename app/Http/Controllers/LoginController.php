@@ -62,4 +62,13 @@ class LoginController extends Controller
     {
         //
     }
+
+    public function insert()
+    {
+        return view('login.insdat');
+    }
+    public function terminos()
+    {
+        return view('login.termcon');
+    }
 }
