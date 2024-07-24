@@ -6,7 +6,17 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'connector-change': 'connector-change 2s linear infinite',
+      },
+      keyframes: {
+        'connector-change': {
+          '0%': { backgroundPosition: '0% 50%' },
+          '100%': { backgroundPosition: '100% 50%' },
+        },
+      },
+    },
   },
   plugins: [],
 }
