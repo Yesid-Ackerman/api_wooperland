@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,6 @@
 </head>
 
 @extends('layouts.lateral')
-
 @section('content')
     <div class="stepper mt-8 mb-2 flex justify-between items-center transform scale-110">
         <a href="{{ route('log') }}"><div class="step active bg-yellow-300 text-[#EF476F] text-3xl rounded-full w-16 h-16 flex justify-center items-center border-2 border-white">1</div></a>

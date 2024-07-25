@@ -22,25 +22,25 @@
 @extends('layouts.lateral')
 
 @section('content')
-<div class="stepper mt-8 mb-2 flex justify-between items-center transform scale-110">
-    <a href="{{ route('log') }}">
-        <div class="step active bg-yellow-300 text-[#EF476F] text-3xl rounded-full w-16 h-16 flex justify-center items-center border-2 border-white">
-            1
-        </div>
-    </a>
-    <div class="connector bg-yellow-300 h-4 w-48 border-y-2 border-white animate-connector-change"></div>
-    <a href="{{ route('pass') }}">
-        <div class="step active bg-yellow-300 text-[#EF476F] text-3xl rounded-full w-16 h-16 flex justify-center items-center border-2 border-white">
-            2
-        </div>
-    </a>
-    <div class="connector bg-yellow-300 h-4 w-48 border-y-2 border-white animate-connector-change"></div>
-    <a href="{{ route('terminos') }}">
-        <div class="step active bg-yellow-300 text-[#EF476F] text-3xl rounded-full w-16 h-16 flex justify-center items-center border-2 border-white">
-            3
-        </div>
-    </a>
-</div>
+    <div class="stepper mt-8 mb-2 flex justify-between items-center transform scale-110">
+        <a href="{{ route('log') }}">
+            <div class="step active bg-yellow-300 text-[#EF476F] text-3xl rounded-full w-16 h-16 flex justify-center items-center border-2 border-white">
+                1
+            </div>
+        </a>
+        <div class="connector bg-yellow-300 h-4 w-48 border-y-2 border-white animate-connector-change"></div>
+        <a href="{{ route('pass') }}">
+            <div class="step active bg-yellow-300 text-[#EF476F] text-3xl rounded-full w-16 h-16 flex justify-center items-center border-2 border-white">
+                2
+            </div>
+        </a>
+        <div class="connector bg-yellow-300 h-4 w-48 border-y-2 border-white animate-connector-change"></div>
+        <a href="{{ route('terminos') }}">
+            <div class="step active bg-yellow-300 text-[#EF476F] text-3xl rounded-full w-16 h-16 flex justify-center items-center border-2 border-white">
+                3
+            </div>
+        </a>
+    </div>
 
     <div class="flex flex-col justify-center items-center w-full flex-grow mt-0.5">                          
         <div class="bg-white min-h-[80vh] w-5/6 rounded-xl border-black border-4 p-8">
