@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Store;
+use App\Models\Login;
 use Illuminate\Http\Request;
 
-class StoreController extends Controller
+class LoginController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -20,7 +20,7 @@ class StoreController extends Controller
      */
     public function create()
     {
-        return view('store.store');
+        return view('login.log');
     }
 
     /**
@@ -34,7 +34,7 @@ class StoreController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Store $store)
+    public function show(Login $login)
     {
         //
     }
@@ -42,7 +42,7 @@ class StoreController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Store $store)
+    public function edit(Login $login)
     {
         //
     }
@@ -50,7 +50,7 @@ class StoreController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Store $store)
+    public function update(Request $request, Login $login)
     {
         //
     }
@@ -58,13 +58,17 @@ class StoreController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Store $store)
+    public function destroy(Login $login)
     {
         //
     }
 
-    public function article()
+    public function insert()
     {
-        return view('store.article');
+        return view('login.insdat');
+    }
+    public function terminos()
+    {
+        return view('login.termcon');
     }
 }
