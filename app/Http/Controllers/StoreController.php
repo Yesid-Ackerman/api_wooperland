@@ -34,11 +34,11 @@ class StoreController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Store $store)
+    public function show()
     {
-        //
+      
+        return view('store.clasico');
     }
-
     /**
      * Show the form for editing the specified resource.
      */
@@ -66,5 +66,25 @@ class StoreController extends Controller
     public function article()
     {
         return view('store.article');
+    }
+
+    public function showClasico()
+    {
+        return view('store.clasico');
+    }
+
+    public function showNuevo()
+    {
+        return view('store.nuevo');
+    }
+
+    public function showEspecial()
+    {
+        return view('store.especial');
+    }
+
+    public function showLegendario()
+    {
+        return view('store.legendario');
     }
 }
