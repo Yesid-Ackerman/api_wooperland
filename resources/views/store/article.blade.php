@@ -10,7 +10,7 @@
     @vite('resources/css/app.css')
 </head>
 
-@extends('layouts.superior')
+@extends('layouts.superiorstore')
 
 @section('content')
     <main class="min-h-[80vh]  flex items-center">
