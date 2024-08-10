@@ -11,7 +11,7 @@
 
 <body>
 
-    <a href="{{route('EIMG_1')}}">
+    <a href="{{route('home')}}">
         <img src="{{ asset('/imgs/Foto_Perfil_imgs_Haiver/flecha-img.png') }}">
     </a>
     <div class="container_imagen">

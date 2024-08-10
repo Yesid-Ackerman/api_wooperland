@@ -10,7 +10,7 @@
 </head>
 <body>
         <div class="profile-bar">
-            <a href="../views/Elige_Temas/Elige_Tema_Vista-1.html">
+            <a href="{{ route('General') }}">
                 <div class="profile-pic">
                     <img src="imagenes_stiven/imageneshome/image.png" alt="" class="profile-pic">
                 </div>
@@ -35,9 +35,9 @@
 
         <div class="sidebar">
             <a href="../views/retos/reto-principal.html"><div class="sidebar-icon"><img src="imagenes_stiven/imageneshome/image copy 4.png" alt="Calendar"></div></a>
-            <a href=""><div class="sidebar-icon"><img src="imagenes_stiven/imageneshome/image copy 5.png" alt="Store"></div></a>
+            <a href="{{ route("article") }}"><div class="sidebar-icon"><img src="imagenes_stiven/imageneshome/image copy 5.png" alt="Store"></div></a>
             <a href="../views/sugerencias/sugerencia1.html"><div class="sidebar-icon"><img src="imagenes_stiven/imageneshome/image copy 6.png" alt="Idea"></div></a>
-            <a href="../views/Foto_Perfil/CIMG_Vista_1.html"><div class="sidebar-icon"><img src="imagenes_stiven/imageneshome/image copy 7.png" alt="Axolotl"></div></a>
+            <a href="{{ route('EIMG_1') }}"><div class="sidebar-icon"><img src="imagenes_stiven/imageneshome/image copy 7.png" alt="Axolotl"></div></a>
             <a href=""></a><div class="sidebar-icon"><img src="imagenes_stiven/imageneshome/image copy 8.png" alt="Exit"></div></a>
         </div>
 

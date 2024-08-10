@@ -12,7 +12,7 @@
     <header>
         <div class="logo">WOOPERLAND</div>
         <nav>
-          <a href="#" class="nav-item">Login</a>
+          <a href="{{ route('log') }}" class="nav-item">Login</a>
           <a href="#" class="nav-item">Register</a>
         </nav>
       </header>

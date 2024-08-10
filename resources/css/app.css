@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes connector-change {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.animate-connector-change {
+    background: linear-gradient(90deg, #fbbf24, #f59e0b);
+    background-size: 200% 200%;
+    animation: connector-change 2s linear infinite;
+}

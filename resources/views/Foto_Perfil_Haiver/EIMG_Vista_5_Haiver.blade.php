@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <a href="{{route('EIMG_1')}}">
+    <a href="{{route('home')}}">
         <img src="{{asset('imgs/Foto_Perfil_imgs_Haiver/flecha-img.png')}}" />
     </a>
     <div class="container_imagen">
@@ -104,7 +104,7 @@
     <a href="../../home/home.html">
         <div class="container-finalizar_cambio">
             <h1 class="finalizar-cambio">
-                <a href="{{route('EIMG_1')}}"> Finalizar Cambio</a>
+                <a href="{{ route('home') }}"> Finalizar Cambio</a>
             </h1>
         </div>
     </a>

@@ -66,7 +66,7 @@
     <a href="../../home/home.html">
         <div class="container-botom-crear_perfil">
             <img class="icono-botom" src="{{ asset('/imgs/Foto_Perfil_imgs_Haiver/icono_crear-perfil.png') }}">
-            <h1 class="texto-botom"><a href=""> Crear Perfil </a></h1>
+            <h1 class="texto-botom"><a href="{{ route('home') }}"> Crear Perfil </a></h1>
         </div>
     </a>
 </body>

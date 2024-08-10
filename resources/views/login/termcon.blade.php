@@ -56,7 +56,7 @@
             </div>
             <div class="pt-6 flex justify-center">
                 <button class="bg-[#EF476F] text-white font-bold py-2 px-4 rounded-xl h-16 w-2/6 hover:bg-[#FFD166] hover:text-black flex items-center justify-center">
-                    <span class="text-2xl">Aceptar</span>
+                    <span class="text-2xl"><a href="{{ route('home') }}">Aceptar</a></span>
                 </button>
             </div>
         </div>
