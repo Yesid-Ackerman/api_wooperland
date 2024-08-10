@@ -1,0 +1,214 @@
+body{
+    background-color: #FFD166;
+}
+
+#header {
+    height: 80px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: #EF476F;
+    text-align: center;
+    position: absolute;
+    top: 30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 4px 4px 8px #373737;
+}
+
+#header h1 {
+    color: black;
+    font-weight: 40;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 300px;
+    padding: 70px;
+}
+
+.general-btn, .temas-btn, .elegir-temas-btn {
+    position: relative;
+    top: 300px;
+    height: 55px;
+    width: 350px;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: 'Happy Monkey', cursive;
+    box-shadow: 4px 4px 8px #373737;
+}
+
+.general-btn {
+    background-color: #EF476F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #000000;
+}
+
+.temas-btn {
+    background-color: #B8B7AB;
+    color: #000000;
+}
+
+.elegir-temas-btn {
+    background-color: #B8B7AB;
+    color: #000000;
+    border-radius: 200px;
+}
+
+.temas-lista {
+    list-style-type: none;
+    padding: 30px;
+}
+
+.container-general{
+    position: absolute;
+    background-color: #373737;
+    border-radius: 20px;
+    width: 990px;
+    height: 720px;
+    left: 550px;
+    top: 177px;
+}
+
+.container-general .texto-foto_perfil{
+    position: absolute;
+    top: 160px;
+    left: 6%;
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Happy Monkey', cursive;
+
+}
+
+.container-general .sin-foto_general{
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    left: 4%;
+    top: 4%;
+}
+
+::placeholder{
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+ .container-general input[type="text-1"]{
+    position: absolute;
+    background-color:#605E5E;  
+    font-family: 'Happy Monkey', cursive;
+    font-size: 20px;
+    border-radius: 30px;
+    top: 15%;
+    left:30% ;
+    height:50px ;
+    width: 600px;
+    color: white;
+    border-color:transparent;
+ }
+
+ .container-general .nombre_usuario{
+    position: absolute;
+    top:7%;
+    left: 31%;
+    font-family: 'Happy Monkey', cursive;
+    font-size:20px ;
+    font-weight:100;
+    color: white;
+ }
+
+ .container-general input[type="text-2"]{
+    position: absolute;
+    background-color:#605E5E;  
+    font-family: 'Happy Monkey', cursive;
+    font-size: 20px;
+    border-radius: 30px;
+    top: 32%;
+    left:30% ;
+    height:50px ;
+    width: 600px;
+    color: white;
+    border-color:transparent;
+ }
+
+ .container-general .correo_padre{
+    position: absolute;
+    top:24%;
+    left: 31%;
+    font-family: 'Happy Monkey', cursive;
+    font-size:20px ;
+    font-weight:100;
+    color: white;
+ }
+
+ .container-general input[type="text-3"]{
+    position: absolute;
+    background-color:#605E5E;  
+    font-family: 'Happy Monkey', cursive;
+    font-size: 20px;
+    border-radius: 30px;
+    top: 47%;
+    left:30% ;
+    height:50px ;
+    width: 600px;
+    color: white;
+    border-color:transparent;
+ }
+
+ .container-general .fecha_nacimiento{
+    position: absolute;
+    top:40%;
+    left: 31%;
+    font-family: 'Happy Monkey', cursive;
+    font-size:20px ;
+    font-weight:100;
+    color: white;
+ }
+
+ .container-general input[type="text-4"]{
+    position: absolute;
+    background-color:#605E5E;  
+    font-family: 'Happy Monkey', cursive;
+    font-size: 20px;
+    border-radius: 30px;
+    top: 62%;
+    left:30% ;
+    height:50px ;
+    width: 600px;
+    color: white;
+    border-color:transparent;
+ }
+
+ .container-general .Genero_usuario{
+    position: absolute;
+    top:54%;
+    left: 32%;
+    font-family: 'Happy Monkey', cursive;
+    font-size:20px ;
+    font-weight:100;
+    color: white;
+ }
+
+ .container-botom-siguiente .botom-siguiente{
+    position: absolute;
+    background-color: #EF476F;
+    font-weight: 100;
+    font-size: 25px;
+    border-radius: 20px;
+    height: 5%;
+    width: 12%;
+    text-align: center;
+    padding-top:10px;
+    top: 80%;
+    left: 50%;
+ }
+
+ a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Happy Monkey', cursive;
+}
