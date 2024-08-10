@@ -13,6 +13,8 @@ use App\Http\Controllers\TiempoUsoController;
 use App\Http\Controllers\EligeTemasController;
 use App\Http\Controllers\FotoPerfilController;
 use App\Http\Controllers\GeneralController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\StoreController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -63,3 +65,13 @@ Route::get('/CIMG_3',[FotoPerfilController::class, 'CIMG_3'])->name('CIMG_3');
 Route::get('/Elige_tema_1',[EligeTemasController::class, 'Elige_tema_1'])->name('Elige.Tema.1');
 Route::get('/Elige_tema_2',[EligeTemasController::class, 'Elige_tema_2'])->name('Elige.Tema.2');
 Route::get('/Elige_tema_3',[EligeTemasController::class, 'Elige_tema_3'])->name('Elige.Tema.3');
+
+//RUTAS YESITH
+
+//LOGIN
+Route::get('/log',[LoginController::class,'create'])->name('log');
+Route::get('/insdata',[LoginController::class,'insert'])->name('pass');
+Route::get('/teminos',[LoginController::class,'terminos'])->name('terminos');
+
+//ARTICULOS
+Route::get('/article',[StoreController::class,'article']);
