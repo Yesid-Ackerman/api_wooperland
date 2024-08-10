@@ -1,0 +1,877 @@
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Happy Monkey', sans-serif;
+}
+
+/* Encabezado */
+.head > h1 {
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    left: 2%;
+    top: 3%;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #EF476F;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 5rem;
+    border: 1px solid #000000;
+}
+
+.back {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 2%;
+    top: 2%;
+    background: #EF476F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-img {
+    width: 27px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+    top: 2%;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    top: 8rem;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    color: #EF476F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+/* main */
+.container{
+
+    position: absolute;
+    width: 220px;
+    height: 264px;
+    left: 51px;
+    top: 176px;
+
+    background: #787878;
+    border-radius: 10px;
+
+}
+
+.content-main {
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    background: #EF476F;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-main h1 {
+    width: 100%;
+    height: auto;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0; /* Asegura que no haya márgenes adicionales */
+}
+
+.title2 {
+    width: 100%;
+    height: auto;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0; /* Asegura que no haya márgenes adicionales */
+}
+
+.content1{
+
+    position: absolute;
+    width: 212px;
+    height: 56px;
+    left: 4px;
+    right: 4px;
+    top: 84px;
+
+    background: #FFFFFF;
+
+}
+
+.content2{
+
+    position: absolute;
+    width: 212px;
+    height: 56px;
+    left: 4px;
+    right: 4px;
+    top: 144px;
+
+    background: #FFFFFF;
+
+}
+
+.content3{
+
+    position: absolute;
+    width: 212px;
+    height: 56px;
+    left: 4px;
+    right: 4px;
+    top: 204px;
+
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+/* buttons */
+
+.button1{
+
+    position: absolute;
+    width: 222px;
+    height: 43px;
+    left: 51px;
+    top: 479px;
+
+    background: #D9D9D9;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+.button1:hover {
+    background-color: #EF476F; 
+}
+
+.button1 h1{
+
+    position: absolute;
+    width: 70px;
+    height: 24px;
+    top: 8px;
+    left: 70px;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+}
+
+.button2{
+
+    position: absolute;
+    width: 222px;
+    height: 43px;
+    left: 51px;
+    top: 537px;
+
+    background: #EF476F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+.button2:hover {
+    background-color: #EF476F; 
+}
+
+.button2 h1{
+
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    top: 8px;
+    left: 70px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+
+}
+
+/* medals */
+
+.complete{
+
+    position: absolute;
+    width: 1500px;
+    height: 33px;
+    left: 350px;
+    top: 176px;
+
+    background: #EF476F;
+
+}
+
+.complete2{
+
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    top: -30px;
+
+    background: #EF476F;
+
+}
+
+.complete2 h1{
+
+    position: absolute;
+    left: 12px;
+    top: 20px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+}
+
+.goal1{
+
+    position: absolute;
+    width: 1500px;
+    height: 150px;
+    left: 350px;
+    top: 209px;
+
+    background: #D9D9D9;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+
+.img-goal1{
+
+   position: absolute;
+   width: 60px;
+   height: 60px;
+   left: 50px;
+   top: 20px;
+
+}
+
+.title-goal1{
+
+    position: absolute;
+    left: 150px;
+    top: 12px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.p-goal1{
+
+    position: absolute;
+    left: 160px;
+    top: 50px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.cant-goal1{
+
+    position: absolute;
+    left: 1340px;
+    top:45px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.diamont-goal1{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1400px;
+    top: 30px;
+
+}
+
+.button{
+
+    position: absolute;
+    width: 127px;
+    height: 32px;
+    left: 20px;
+    top: 100px;
+
+    background: #EF476F;
+    border-radius: 5px;
+
+}
+
+.button p{
+
+    position: absolute;
+    left: 30px;
+    top: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color:  black
+
+}
+
+.file{
+
+    position: absolute;
+    left: 200px;
+    top: 70px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.progress{
+
+    position: absolute;
+    width: 1250px;
+    height: 30px;
+    left: 200px;
+    top: 110px;
+
+
+}
+
+/* goal2 */
+
+.goal2{
+
+    position: absolute;
+    width: 1500px;
+    height: 150px;
+    left: 350px;
+    top: 400px;
+
+    background: #D9D9D9;
+    border-radius:10px;
+
+}
+
+
+.img-goal2{
+
+   position: absolute;
+   width: 60px;
+   height: 60px;
+   left: 50px;
+   top: 20px;
+
+}
+
+.title-goal2{
+
+    position: absolute;
+    left: 150px;
+    top: 12px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.p-goal2{
+
+    position: absolute;
+    left: 160px;
+    top: 50px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.cant-goal2{
+
+    position: absolute;
+    left: 1340px;
+    top:45px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.diamont-goal2{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1400px;
+    top: 30px;
+
+}
+
+.button2-goal2{
+
+    position: absolute;
+    width: 127px;
+    height: 32px;
+    left: 20px;
+    top: 100px;
+
+    background: #EF476F;
+    border-radius: 5px;
+
+}
+
+.button2-goal2 p{
+
+    position: absolute;
+    left: 30px;
+    top: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color:  black
+
+}
+
+.file2{
+
+    position: absolute;
+    left: 200px;
+    top: 70px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.progress2{
+
+    position: absolute;
+    width: 1250px;
+    height: 30px;
+    left: 200px;
+    top: 110px;
+
+}
+
+/* goal3 */
+
+.goal3{
+
+    position: absolute;
+    width: 1500px;
+    height: 150px;
+    left: 350px;
+    top: 595px;
+
+    background: #D9D9D9;
+    border-radius:10px;
+
+}
+
+
+.img-goal3{
+
+   position: absolute;
+   width: 60px;
+   height: 60px;
+   left: 50px;
+   top: 20px;
+
+}
+
+.title-goal3{
+
+    position: absolute;
+    left: 150px;
+    top: 12px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.p-goal3{
+
+    position: absolute;
+    left: 160px;
+    top: 50px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.cant-goal3{
+
+    position: absolute;
+    left: 1340px;
+    top:45px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.diamont-goal3{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1400px;
+    top: 30px;
+
+}
+
+.button2-goal3{
+
+    position: absolute;
+    width: 127px;
+    height: 32px;
+    left: 20px;
+    top: 100px;
+
+    background: #EF476F;
+    border-radius: 5px;
+
+}
+
+.button2-goal3 p{
+
+    position: absolute;
+    left: 30px;
+    top: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color:  black
+
+}
+
+.file3{
+
+    position: absolute;
+    left: 200px;
+    top: 70px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.progress3{
+
+    position: absolute;
+    width: 1250px;
+    height: 30px;
+    left: 200px;
+    top: 110px;
+
+}
+
+.img-content1{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top: 8px;
+
+}
+
+.valor{
+
+    position: absolute;
+    left: 70px;
+    top: 20px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.num{
+
+    position: absolute;
+    left: 180px;
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+   color: #000000;
+
+}
+
+.img-content2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top: 8px;
+}
+
+.valor2{
+
+    position: absolute;
+    left: 70px;
+    top: 20px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.num2{
+
+    position: absolute;
+    left: 180px;
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+   color: #000000;
+
+}
+
+.img-content3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top: 8px;
+}
+
+.valor3{
+
+    position: absolute;
+    left: 70px;
+    top: 20px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.num3{
+
+    position: absolute;
+    left: 180px;
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+   color: #000000;
+
+}
+
+.foot{
+
+    position: absolute;
+    width: 100%;
+    height: 86px;
+    left: 0px;
+    top: 100%;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.figure-home{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 334px;
+    top: 25px;
+    border-radius: 50%;
+
+    background: #EF476F;
+
+}
+
+.home{
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 8px;
+
+}
+
+.figure-profile{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1500px;
+    top: 25px;
+    border-radius: 50%;
+
+    background: #D9D9D9;
+
+}
+
+.profile{
+
+    position: absolute;
+    width: 30.24px;
+    height: 30px;
+    left: 10px;
+    top: 10px;
+
+}

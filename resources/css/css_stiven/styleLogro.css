@@ -1,0 +1,269 @@
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Happy Monkey', sans-serif;
+}
+
+/* Encabezado */
+.head > h1 {
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    left: 2%;
+    top: 3%;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #EF476F;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 5rem;
+    border: 1px solid #000000;
+}
+
+.back {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 2%;
+    top: 2%;
+    background: #EF476F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-img {
+    width: 27px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+    top: 2%;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    top: 8rem;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    color: #EF476F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1300px; /* Ajusta según sea necesario */
+    margin: 15rem auto 0;
+    padding: 0 20px;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.4s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card1 { background: #1B6286; }
+.card2 { background: #86C163; }
+.card3 { background: #FFFDD2; }
+.card4 { background: #CD6867; }
+.card5 { background: #F07943; }
+.card6 { background: #134D7C; }
+.card7 { background: #A46533; }
+.card8 { background: #A89288; }
+.card9 { background: #EECE9F; }
+.card10 { background: #7ED689; }
+
+.title-topic {
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.img-topic {
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foot {
+    position: fixed;
+    width: 100%;
+    height: 86px;
+    bottom: 0;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.figure-home {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #EF476F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    width: 30px;
+    height: 30px;
+}
+
+.figure-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    width: 30.24px;
+    height: 30px;
+}
+
+    .head > h1 {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        top: 6rem;
+    }
+
+    .container {
+        margin-top: 10rem;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .title-topic {
+        font-size: 1rem;
+    }
+
+    .foot {
+        height: 70px;
+    }
+
+    .figure-home, .figure-profile {
+        width: 40px;
+        height: 40px;
+    }
+
+    .home, .profile {
+        width: 25px;
+        height: 25px;
+    }
+
+    .foot{
+
+        position: absolute;
+        width: 100%;
+        height: 86px;
+        left: 0px;
+        top: 90%;
+    
+        background: #FFFFFF;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    
+    .figure-home{
+    
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 334px;
+        top: 25px;
+        border-radius: 50%;
+    
+        background: #EF476F;
+    
+    }
+    
+    .home{
+    
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 10px;
+        top: 8px;
+    
+    }
+    
+    .figure-profile{
+    
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 1500px;
+        top: 25px;
+        border-radius: 50%;
+    
+        background: #D9D9D9;
+    
+    }
+    
+    .profile{
+    
+        position: absolute;
+        width: 30.24px;
+        height: 30px;
+        left: 10px;
+        top: 10px;
+    
+    }
+

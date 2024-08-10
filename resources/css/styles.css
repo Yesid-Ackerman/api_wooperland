@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: white;
+}
+  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+  
+  .logo {
+    font-size: 24px;
+    color: #FF6B6B;
+    text-shadow: 2px 2px 0 #FFD93D;
+  
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+    text-decoration: none;
+    color: #FF6B6B;
+    text-shadow: 1px 1px 0 #FFD93D;
+  }
+
+.banner {
+  background-color: #FFD966;
+  font-family: 'Press Start 2P', cursive;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 119px;
+}
+
+
+.title-wooper {
+  position: absolute;
+  width: 80%;
+  height: auto;  
+  top: 10%;
+
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5vw;
+  line-height: 1.2; 
+  text-align: center;
+
+  color: #EF476F;
+  text-shadow: 0.5vw 0.5vw 0 #000; 
+}
+
+
+p {
+  position: absolute;
+  width: 72.7%;
+  height: 18%;
+  left: 0%;
+  top: 50%;
+
+  font-family: 'Happy Monkey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #000000;
+}
+
+
+.characters {
+    width: 466px;
+    height: 365px;
+    left: 974px;
+    top: 50%;
+  }
+
+.subtitle{
+
+position: absolute;
+width: 100%;
+height: 62px;
+left: 30%;
+top: 551px;
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-shadow: 5px 5px 0 #000;
+color: #EF476F;
+
+}
+
+.sliding{
+position: absolute;
+width: 100%;
+height: 423px;
+left: 0px;
+top: 634px;
+
+background: #F78C6B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.topic{
+position: absolute;
+width: 385px;
+height: 72px;
+left: 350px;
+top: 20px;
+
+font-family: 'Happy Monkey', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 72px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.p1{
+position: absolute;
+width: 380px;
+height: 180px;
+left: 350px;
+top: 150px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+}
+
+.img2{
+position: absolute;
+width: 343px;
+height: 339px;
+left: 1000px;
+top: 50px;
+}
+
+p{
+    font-family: 'Happy Monkey';
+}
+
+/* card1 */
+.nav1{
+
+position: absolute;
+width: 301px;
+height: 390px;
+left: 202px;
+top: 1137px;
+
+background: #D9D9D9;
+border-radius: 20px;
+
+}
+
+.imgbody{
+
+position: absolute;
+width: 301px;
+height: 301px;
+left: 0px;
+top: 0px;
+border-radius: 20px 20px 0px 0px;
+
+}
+
+.foot{
+
+position: absolute;
+width: 301px;
+height: 89px;
+left: 0px;
+top: 301px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 20px 20px;
+
+}
+
+.foot p{
+position: absolute;
+width: 206px;
+height: 36px;
+left: 50px;
+top: 0%;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+}
+
+/* card2 */
+.nav2{
+position: absolute;
+width: 301px;
+height: 390px;
+left: calc(50% - 301px/2 - 3.5px);
+top: 1137px;
+
+background: #D9D9D9;
+border-radius: 20px;
+}
+
+.imgbody2{
+
+position: absolute;
+width: 301px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+border-radius: 20px 20px 0px 0px;
+
+}
+
+.foot2{
+
+position: absolute;
+width: 301px;
+height: 89px;
+left: 0px;
+top: 301px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 20px 20px;
+
+}
+
+.foot2 p{
+position: absolute;
+width: 248px;
+height: 72px;
+left: 30px;
+top: -20px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+}
+
+/* card3 */
+
+.nav3{
+
+position: absolute;
+width: 301px;
+height: 390px;
+left: 1400px;
+top: 1137px;
+
+background: #D9D9D9;
+border-radius: 20px;
+
+}
+
+.imgbody3{
+
+position: absolute;
+width: 301px;
+height: 301px;
+left: 1400px;
+top: 1137px;
+
+border-radius: 20px 20px 0px 0px;
+
+}
+
+.foot3{
+
+position: absolute;
+width: 301px;
+height: 89px;
+left: 1400px;
+top: 1438px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 20px 20px;
+
+}
+
+.foot3 p{
+
+position: absolute;
+width: 281px;
+height: 36px;
+left: 9px;
+top: 0px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+}
+
+/* jugar */
+
+.play{
+
+position: absolute;
+width: 100%;
+height: 163px;
+left: 0px;
+top: 1580px;
+
+background: #FFD166;
+
+}
+
+.play1{
+
+position: absolute;
+width: 980px;
+height: 35px;
+left: 69px;
+top: 40px;
+
+font-family: 'Press Start 2P';
+font-weight: 400;
+font-size: 35px;
+align-items: center;
+color: #EF476F;
+text-shadow: 4px 4px 0 #000;
+
+}
+
+.jugar{
+
+position: absolute;
+width: 302px;
+height: 89px;
+left: 1500px;
+top: 40px;
+
+background: #EF476F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+}
+
+.jugar > p{
+
+position: absolute;
+width: 112px;
+height: 42px;
+left: 40px;
+top: -10px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+}
+
+.jugar img{
+
+position: absolute;
+width: 54px;
+height: 48px;
+left: 200px;
+top: 20px;
+
+border-radius: 3px;
+
+}
+
+.download{
+
+  position: absolute;
+  width: 100%;
+  height: 631px;
+  left: 0px;
+  top: 1796px;
+
+  background: #F78C6B;
+}
+
+.figure1{
+
+position: absolute;
+width: 301px;
+height: 293px;
+left: 51px;
+top: 50px;
+
+background: rgba(251, 198, 181, 0.5);
+border-radius: 50%;
+}
+
+.figure2{
+
+position: absolute;
+width: 675px;
+height: 496px;
+left: 184px;
+top: 100px;
+
+background: rgba(251, 198, 181, 0.5);
+border-radius: 50%;
+}
+
+.download1{
+
+position: absolute;
+width: 1038px;
+height: 310px;
+left: 200px;
+top: 300px;
+
+background: #F36A6D;
+border-radius: 20px;
+
+}
+
+.title-download{
+
+position: absolute;
+width: 397px;
+height: 120px;
+left: 40px;
+top: 0px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 60px;
+display: flex;
+
+
+color: #000000;
+text-shadow: none;
+
+}
+
+.content-download1{
+
+position: absolute;
+width: 427px;
+height: 90px;
+left: 40px;
+top: 150px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+.content-download2{
+
+position: absolute;
+width: 472px;
+height: 36px;
+left: 550px;
+top: 100px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+.content-download3{
+
+position: absolute;
+width: 427px;
+height: 30px;
+left: 650px;
+top: 200px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+:hover.content-download3{
+  color: white;
+}
+
+.footer-web{
+
+position: absolute;
+width: 100%;
+height: 286px;
+left: 0px;
+top: 2495px;
+
+background: #F78C6B;
+
+}
+
+.footer-logo{
+
+position: absolute;
+width: 309px;
+height: 63px;
+left: 59.04px;
+top: 30%;
+
+}
+
+.footer-content1{
+
+position: absolute;
+width: 425px;
+height: 36px;
+left: 1250px;
+top: 0px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+}
+
+.footer-img1{
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: 1350px;
+top: 100px;
+
+}
+
+.footer-img2{
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: 1450px;
+top: 100px;
+
+}
+
+.footer-img3{
+  position: absolute;
+width: 68px;
+height: 68px;
+left: 1550px;
+top: 100px;
+
+}
+
+.line{
+
+position: absolute;
+width: 100%;
+height: 0px;
+left: 0px;
+top:210px;
+
+border: 1px solid #FFFFFF;
+
+}
+
+.footer-content2{
+
+position: absolute;
+width: 284px;
+height: 36px;
+left: 40%;
+top: 200px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+
+}

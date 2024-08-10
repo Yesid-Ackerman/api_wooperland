@@ -1,0 +1,139 @@
+body {
+    background-color: #FFD166;
+    font-family: 'Happy Monkey', cursive;
+    margin: 0;
+    padding: 0;
+}
+.profile-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin-right: 10px;
+}
+.username {
+    font-size: 18px;
+    font-weight: bold;
+}
+.stats {
+    display: flex;
+    margin-left: auto;
+}
+.stat-item {
+    display: flex;
+    align-items: center;
+    background-color: #E6E6E6;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.stat-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.sidebar {
+    width: 60px;
+    background-color: #FFD166;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: absolute;
+    right: 20px; /* Coloca la barra lateral a la izquierda */
+    top: 50%; /* Empieza desde el centro de la pantalla */
+    transform: translateY(-50%); /* Ajusta para centrar verticalmente */
+}
+.sidebar-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #EF476F;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.img-home{
+
+    position: absolute;
+    width: 500px;
+    height:600px;
+    left: 1200px;
+    top: 177px;
+
+}
+
+.title{
+
+    position: absolute;
+    width: 973px;
+    height: 200px;
+}
+
+.logo{
+
+    position: absolute;
+    width: 900px;
+    height: 400px;
+    left: 150px;
+    top: 183px;
+
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background: #EF476F;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 30%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    font-family: 'Happy Monkey', cursive;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.play:hover {
+    background: white;
+    color: #EF476F;
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+.time {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 16px;
+    color: #000000;
+}
+
+.time span:last-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
