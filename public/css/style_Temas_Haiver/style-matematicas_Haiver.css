@@ -1,0 +1,153 @@
+body {
+    background-color: #FFD166;
+    display: flex;
+}
+
+#header {
+    height: 80px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: #EF476F;
+    text-align: center;
+    position: absolute;
+    top: 30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 4px 4px 8px #373737;
+}
+
+#header h1 {
+    color: black;
+    font-weight: 40;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 300px;
+    padding: 70px;
+}
+
+.general-btn, .temas-btn, .elegir-temas-btn {
+    position: relative;
+    top: 300px;
+    height: 55px;
+    width: 350px;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: 'Happy Monkey', cursive;
+    box-shadow: 4px 4px 8px #373737;
+}
+
+.general-btn {
+    background-color: #B8B7AB;
+    color: #000000;
+}
+
+.temas-btn {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #EF476F;
+    color: #000000;
+}
+
+.elegir-temas-btn {
+    background-color: #B8B7AB;
+    color: #000000;
+    border-radius: 200px;
+}
+
+.descripcion_matematicas {
+    display: flex;
+    width: 40%;
+    height: 60%;
+    background-color: #373737;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.header {
+    background-color: #EF476F;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.imfo_matematicas {
+    height: 430px;
+    width: 665px;
+    padding: 10px;
+    font-family: 'Happy Monkey', cursive;
+    background-color: #FFFDD2;
+    border-radius: 10px;
+}
+
+.imfo_matematicas h2 {
+    margin-right: 10px;
+}
+
+.imfo_matematicas p {
+    font-size: 20px;
+}
+
+.imfo_matematicas img {
+    height: 20dvh;
+    width: 250px;
+    padding: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.temas-lista {
+    position: absolute;
+    top: 10%;
+    left:25% ;
+    list-style-type: none;
+    padding: 30px;
+}
+
+.Matemáticas, .Lenguaje_Lectura, .Ciencias_Naturales, .Historia_Cultura, .Astronomía, .Geografía, .Programación, .Acertijos, .Tecnología, .Arte_Creatividad {
+    height: 45px;
+    width: 400px;
+    border-radius: 60px; 
+    font-size: 15px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-indent: 5px;
+    background-color: #605E5E;
+}
+
+.Matemáticas {
+    text-indent: 10px;
+    background-color: #B8B7AB;
+}
+
+#header {
+    height: 80px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: #EF476F;
+    text-align: center;
+    position: absolute;
+    top: 30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 4px 4px 8px #373737;
+}
+
+#header h1 {
+    color: black;
+    font-weight: 40;
+    font-family: 'Happy Monkey', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
