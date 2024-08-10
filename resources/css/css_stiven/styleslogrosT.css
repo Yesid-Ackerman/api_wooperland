@@ -1,0 +1,861 @@
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Happy Monkey', sans-serif;
+}
+
+/* Encabezado */
+.head > h1 {
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    left: 2%;
+    top: 3%;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #EF476F;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 5rem;
+    border: 1px solid #000000;
+}
+
+.back {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 2%;
+    top: 2%;
+    background: #EF476F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-img {
+    width: 27px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+    top: 2%;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    top: 8rem;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    color: #EF476F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+/* main */
+.container{
+
+    position: absolute;
+    width: 220px;
+    height: 264px;
+    left: 51px;
+    top: 176px;
+
+    background: #787878;
+    border-radius: 10px;
+
+}
+
+.content-main{
+
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    background: #EF476F;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-main h1{
+
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.title2{
+
+    position: absolute;
+    width: 300px;
+    height: 10px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    left: 30px;
+    text-align: center;
+    top: 10px;
+
+    color: #FFFFFF;
+
+}
+
+.subtitle {
+
+    position: absolute;
+    width: 35px;
+    height: 18px;
+    left: 30px;
+    top: 60px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+}
+
+.content1 {
+    position: absolute;
+    width: 212px;
+    height: 175px;
+    left: 4px;
+    right: 4px;
+    top: 84px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+}
+
+.img-content1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button1{
+
+    position: absolute;
+    width: 222px;
+    height: 43px;
+    left: 51px;
+    top: 479px;
+
+    background: #EF476F;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+.button1:hover {
+    background-color: #EF476F; 
+}
+
+.button1 h1{
+
+    position: absolute;
+    width: 70px;
+    height: 24px;
+    top: 8px;
+    left: 70px;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+}
+
+.button2{
+
+    position: absolute;
+    width: 222px;
+    height: 43px;
+    left: 51px;
+    top: 537px;
+
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+.button2:hover {
+    background-color: #EF476F; 
+}
+
+.button2 h1{
+
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    top: 8px;
+    left: 70px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+
+}
+
+.complete{
+
+    position: absolute;
+    width: 1500px;
+    height: 33px;
+    left: 350px;
+    top: 176px;
+
+    background: #EF476F;
+
+}
+
+.complete2{
+
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    top: -30px;
+
+    background: #EF476F;
+
+}
+
+.complete2 h1{
+
+    position: absolute;
+    left: 12px;
+    top: 20px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+}
+
+.goal1{
+
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 350px;
+    top: 209px;
+
+    background: #D9D9D9;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+
+.img-goal1{
+
+   position: absolute;
+   width: 80px;
+   height: 80px;
+   left: 28px;
+   top: 10px;
+   border-radius: 50%;
+
+}
+
+.title-goal1{
+
+    position: absolute;
+    left: 150px;
+    top: 12px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.p-goal1{
+
+    position: absolute;
+    left: 160px;
+    top: 50px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.cant-goal1{
+
+    position: absolute;
+    left: 1350px;
+    top:45px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.diamont-goal1{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1400px;
+    top: 30px;
+
+}
+
+.goal2{
+
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 350px;
+    top: 330px;
+
+    background: #D9D9D9;
+    border-radius: 10px;
+
+}
+
+
+.img-goal2{
+
+   position: absolute;
+   width: 80px;
+   height: 80px;
+   left: 28px;
+   top: 10px;
+   border-radius: 50%;
+
+}
+
+.title-goal2{
+
+    position: absolute;
+    left: 150px;
+    top: 12px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.p-goal2{
+
+    position: absolute;
+    left: 160px;
+    top: 50px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.cant-goal2{
+
+    position: absolute;
+    left: 1350px;
+    top:45px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.diamont-goal2{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1400px;
+    top: 30px;
+
+}
+
+.goal3{
+
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 350px;
+    top: 450px;
+
+    background: #D9D9D9;
+    border-radius: 10px;
+
+}
+
+
+.img-goal3{
+
+   position: absolute;
+   width: 80px;
+   height: 80px;
+   left: 28px;
+   top: 10px;
+   border-radius: 50%;
+
+}
+
+.title-goal3{
+
+    position: absolute;
+    left: 150px;
+    top: 12px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.p-goal3{
+
+    position: absolute;
+    left: 160px;
+    top: 50px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.cant-goal3{
+
+    position: absolute;
+    left: 1350px;
+    top:45px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.diamont-goal3{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1400px;
+    top: 30px;
+
+}
+
+/* blocked */
+
+.blocked{
+
+    position: absolute;
+    width: 1500px;
+    height: 33px;
+    left: 350px;
+    top: 650px;
+
+    background: #EF476F;
+
+}
+
+.blocked2-div{
+
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    top: -30px;
+
+    background: #EF476F;
+
+}
+
+.blocked2-div h1{
+
+    position: absolute;
+    left: 12px;
+    top: 20px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+}
+
+.blocked1{
+
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 350px;
+    top: 680px;
+
+    background: #737373;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+
+.img-blocked1{
+
+   position: absolute;
+   width: 80px;
+   height: 80px;
+   left: 28px;
+   top: 10px;
+   border-radius: 50%;
+   opacity: 0.5;
+
+}
+
+.title-blocked1{
+
+    position: absolute;
+    left: 150px;
+    top: 12px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.p-blocked{
+
+    position: absolute;
+    left: 160px;
+    top: 50px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.cant-blocked1{
+
+    position: absolute;
+    left: 1350px;
+    top:45px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.diamont-blocked1{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1400px;
+    top: 30px;
+
+}
+
+.blocked2{
+
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 350px;
+    top: 800px;
+
+    background: #737373;
+    border-radius: 10px;
+
+}
+
+
+.img-blocked2{
+
+   position: absolute;
+   width: 80px;
+   height: 80px;
+   left: 28px;
+   top: 10px;
+   border-radius: 50%;
+   opacity: 0.5;
+
+}
+
+.title-blocked2{
+
+    position: absolute;
+    left: 150px;
+    top: 12px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.p-blocked2{
+
+    position: absolute;
+    left: 160px;
+    top: 50px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.cant-blocked2{
+
+    position: absolute;
+    left: 1350px;
+    top:45px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.diamont-blocked2{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1400px;
+    top: 30px;
+
+}
+
+.blocked3{
+
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 350px;
+    top: 920px;
+
+    background: #737373;
+    border-radius: 10px;
+
+}
+
+
+.img-blocked3{
+
+   position: absolute;
+   width: 80px;
+   height: 80px;
+   left: 28px;
+   top: 10px;
+   border-radius: 50%;
+   opacity: 0.5;
+
+}
+
+.title-blocked3{
+
+    position: absolute;
+    left: 150px;
+    top: 12px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.p-blocked3{
+
+    position: absolute;
+    left: 160px;
+    top: 50px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.cant-blocked3{
+
+    position: absolute;
+    left: 1350px;
+    top:45px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.diamont-blocked3{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1400px;
+    top: 30px;
+
+}
+
+.foot{
+
+    position: absolute;
+    width: 100%;
+    height: 86px;
+    left: 0px;
+    top: 120%;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.figure-home{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 334px;
+    top: 25px;
+    border-radius: 50%;
+
+    background: #EF476F;
+
+}
+
+.home{
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 8px;
+
+}
+
+.figure-profile{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1500px;
+    top: 25px;
+    border-radius: 50%;
+
+    background: #D9D9D9;
+
+}
+
+.profile{
+
+    position: absolute;
+    width: 30.24px;
+    height: 30px;
+    left: 10px;
+    top: 10px;
+
+}

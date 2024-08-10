@@ -1,0 +1,431 @@
+*{
+    background-color:  #EF476F;
+}
+
+.title{
+
+  position: absolute;
+  width: 246px;
+  height: 36px;
+  left: 42%;
+  top: 0px;
+
+  font-family: 'Happy Monkey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+
+}
+
+.line{
+
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 72px;
+    
+    border: 1px solid #FFFFFF;
+    
+}
+
+
+.x{
+
+   position: absolute;
+   width: 22px;
+   height: 24px;
+   left: 95.5%;
+   top: 25px;
+   border-radius: 50px;
+   background-color: none;
+
+}
+
+.wpr{
+
+   position: absolute;
+   width: 397px;
+   height: 429px;
+   left: 250px;
+   top: 292px;
+
+}
+
+.img-text{
+
+   position: absolute;
+   width: 579px;
+   height: 189px;
+   left: 350px;
+   top: 172px;
+
+}
+
+.text{
+
+   position: absolute;
+   width: 438px;
+   height: 60px;
+   left: 400px;
+   top: 200px;
+
+   font-family: 'Happy Monkey';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 30px;
+   text-align: center;
+
+   color: #000000;
+   background-color: white;
+
+}
+
+.pin1{
+
+   position: absolute;
+   width: 62px;
+   height: 40px;
+   left: 1400px;
+   top: 138px;
+
+   font-family: 'Happy Monkey';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 36px;
+   text-align: center;
+
+   color: #FFFFFF;
+
+}
+
+.line1{
+
+   position: absolute;
+   width: 78.42px;
+   height: 0px;
+   left: 1250px;
+   top: 30%;
+
+   border: 1px solid #FFFFFF;
+
+}
+
+.line2{
+
+   position: absolute;
+   width: 78.42px;
+   height: 0px;
+   left: 1350px;
+   top: 30%;
+
+   border: 1px solid #FFFFFF;
+
+}
+
+.line3{
+
+    position: absolute;
+    width: 78.42px;
+    height: 0px;
+    left: 1450px;
+    top: 30%;
+    
+    border: 1px solid #FFFFFF; 
+}
+
+.line4{
+    position: absolute;
+    width: 78.42px;
+    height: 0px;
+    left: 1550px;
+    top: 30%;
+    
+    border: 1px solid #FFFFFF; 
+}
+
+/* bottons */
+
+.num1{
+
+   position: absolute;
+   width: 76px;
+   height: 76px;
+   border-radius: 50%;
+   background: #F7A3B7;
+
+   /* 1 */
+
+   position: absolute;
+   left: 1250px;
+   top: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   font-family: 'Happy Monkey';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   color: #FFFFFF;
+
+}
+
+.num2{
+
+   /* Ellipse 38 */
+
+   position: absolute;
+   width: 76px;
+   height: 76px;
+   left: 903.01px;
+   top: 303.1px;
+
+   background: #F7A3B7;
+
+
+   /* 2 */
+
+   position: absolute;
+   left: 1400px;
+   top: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   font-family: 'Happy Monkey';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   border-radius: 50%;
+   color: #FFFFFF;
+
+}
+
+.num3{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 903.01px;
+    top: 303.1px;
+    
+    background: #F7A3B7;
+    
+    
+    /* 3 */
+    
+    position: absolute;
+    left: 1550px;
+    top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 50%;
+    color: #FFFFFF;
+      
+}
+
+.num4{
+
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background: #F7A3B7;
+    
+    /* 1 */
+    
+    position: absolute;
+    left: 1250px;
+    top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    
+    }
+    
+    .num5{
+    
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 903.01px;
+    top: 303.1px;
+    
+    background: #F7A3B7;
+    
+    
+    /* 2 */
+    
+    position: absolute;
+    left: 1400px;
+    top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    
+    }
+    
+.num6{
+
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 903.01px;
+    top: 303.1px;
+        
+    background: #F7A3B7;
+        
+        
+    /* 3 */
+        
+    position: absolute;
+    left: 1550px;
+    top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 50%;
+    color: #FFFFFF;
+          
+}
+
+.num7{
+
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background: #F7A3B7;
+        
+    /* 1 */
+        
+    position: absolute;
+    left: 1250px;
+    top: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+        
+}
+        
+.num8{
+        
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 903.01px;
+    top: 303.1px;
+        
+    background: #F7A3B7;
+        
+    
+    /* 2 */
+        
+    position: absolute;
+    left: 1400px;
+    top: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 50%;
+    color: #FFFFFF;
+        
+}
+        
+.num9{
+    
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 903.01px;
+    top: 303.1px;
+            
+    background: #F7A3B7;
+            
+            
+    /* 3 */
+            
+    position: absolute;
+    left: 1550px;
+    top: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+            
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 50%;
+    color: #FFFFFF;
+              
+    }
+
+    .num0{
+        
+        position: absolute;
+        width: 76px;
+        height: 76px;
+        left: 903.01px;
+        top: 303.1px;
+        
+        background: #F7A3B7;
+        
+        
+        /* 2 */
+        
+        position: absolute;
+        left: 1400px;
+        top: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        font-family: 'Happy Monkey';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        border-radius: 50%;
+        color: #FFFFFF;
+        
+    }

@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
     @Vite(['resources/css/styles.css','public/imagenes'])
-</head>
+  </head>
 <body>
     <header>
         <div class="logo">WOOPERLAND</div>
@@ -73,15 +73,6 @@
                     <img src="imagenes/image copy 6.png" alt="" class="imgjugar">
                 </div>
               </div>
-
-              <!-- download -->
-                <div class="dowloand">
-                <div class="dowloand1"></div>
-                <div class="dowloand2"></div>
-                <div class="dowloand3">
-                    
-                </div>
-                </div>
                 
                 <div class="download">
                   <div class="figure1"></div>
@@ -92,7 +83,7 @@
                     <p class="content-download2">Descargala en el siguiente link:</p>
                     <a href="#" class="content-download3">http/woperland.com</a>
                   </div>
-                </di>
+                </div>
       </main>
 
       <footer>

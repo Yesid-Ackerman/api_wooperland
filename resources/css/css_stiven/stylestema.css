@@ -1,0 +1,345 @@
+.head > h1{
+
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    left: 31px;
+    top: 21px;
+    
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #EF476F;
+    
+}
+    
+.line{
+    
+    position: absolute;
+    width: 100%;
+    left: -3px;
+    height: 0px;
+    top: 80px;
+        
+    border: 1px solid #000000;
+        
+}
+    
+.back{
+    
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1800px;
+    top: 150px;
+    
+    background: #EF476F;
+    border-radius: 50%;
+    
+}
+    
+.back-img{
+    
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 5px;
+    top: 5px;
+    
+}
+
+.title{
+
+    position: absolute;
+    width: 328px;
+    height: 36px;
+    left: calc(50% - 328px/2 + 18px);
+    top: 130px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #EF476F;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.title-progress{
+
+    position: absolute;
+    width: 348px;
+    height: 36px;
+    left: 500px;
+    top: 250px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+
+}
+
+progress {
+    position: absolute;
+    height: 125px;
+    width: 600px;
+    top: 220px;
+    left: 1000px;
+}
+
+
+.grafic2{
+
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 500px;
+    top: 400px;
+    border: #CCCCCC;
+
+} 
+
+.top{
+
+    position: absolute;
+    width: 364px;
+    height: 36px;
+    left: calc(50% - 364px/2 - 21px);
+    top: 900px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #EF476F;
+
+}
+
+.flex-container{
+    display: flex;
+}
+/* card1 */
+.nav1{
+
+    position: absolute;
+    width: 339.28px;
+    height: 165.41px;
+    left: 122.25px;
+    top: 1100px;
+
+    background: #6A994E;
+    border-radius: 10px 10px 0px 0px; 
+
+}
+    
+.imgbody{
+
+    position: absolute;
+    width: 135.67px;
+    height: 159.65px;
+    left: 0px;
+    top: 0px;
+    
+}
+    
+.foot{
+
+    position: absolute;
+    width: 339.28px;
+    height: 33.08px;
+    left: 0px;
+    top: 165px;
+
+    background: #386641;
+    border-radius: 0px 0px 10px 10px;  
+}
+    
+.p1{ 
+
+    position: absolute;
+    width: 100px;
+    height: 26px;
+    left: 14px;
+    top: -15px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.p2{
+
+    position: absolute;
+    width: 77px;
+    height: 26px;
+    left: 250px;
+    top: -15px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+/* card2 */
+
+.nav2{
+
+    position: absolute;
+    width: 339.28px;
+    height: 165.41px;
+    left: 750px;
+    top: 1100px;
+
+    background: #BC4749;
+    border-radius: 10px 10px 0px 0px; 
+
+}
+    
+.imgbody2{
+
+    position: absolute;
+    width: 135.67px;
+    height: 159.65px;
+    left: 0px;
+    top: 0px;
+    
+}
+    
+.foot2{
+
+    position: absolute;
+    width: 339.28px;
+    height: 33.08px;
+    left: 0px;
+    top: 165px;
+
+    background: #A42D2F;
+    border-radius: 0px 0px 10px 10px;  
+}
+    
+.p1-foot2{ 
+
+    position: absolute;
+    width: 100px;
+    height: 26px;
+    left: 14px;
+    top: -15px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.p2-foot2{
+
+    position: absolute;
+    width: 77px;
+    height: 26px;
+    left: 250px;
+    top: -15px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+/* cards3 */
+.nav3{
+
+    position: absolute;
+    width: 339.28px;
+    height: 165.41px;
+    left: 1400px;
+    top: 1100px;
+
+    background: #DDA15E;
+    border-radius: 10px 10px 0px 0px; 
+
+}
+    
+.imgbody3{
+
+    position: absolute;
+    width: 135.67px;
+    height: 159.65px;
+    left: 0px;
+    top: 0px;
+    
+}
+    
+.foot3{
+
+    position: absolute;
+    width: 339.28px;
+    height: 33.08px;
+    left: 0px;
+    top: 165px;
+
+    background: #BC6C25;
+    border-radius: 0px 0px 10px 10px;  
+}
+    
+.p1-foot3{ 
+
+    position: absolute;
+    width: 100px;
+    height: 26px;
+    left: 14px;
+    top: -15px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.p2-foot3{
+
+    position: absolute;
+    width: 77px;
+    height: 26px;
+    left: 250px;
+    top: -15px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}

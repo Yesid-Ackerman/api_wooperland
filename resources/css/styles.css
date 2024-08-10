@@ -17,6 +17,7 @@ header {
     font-size: 24px;
     color: #FF6B6B;
     text-shadow: 2px 2px 0 #FFD93D;
+  
   }
   
   nav {
@@ -60,20 +61,6 @@ header {
 
   color: #EF476F;
   text-shadow: 0.5vw 0.5vw 0 #000; 
-}
-
-@media (max-width: 600px) {
-  .title-wooper {
-      font-size: 8vw; 
-      text-shadow: 0.8vw 0.8vw 0 #000;
-  }
-}
-
-@media (min-width: 1200px) {
-  .title-wooper {
-      font-size: 3vw; 
-      text-shadow: 0.3vw 0.3vw 0 #000;
-  }
 }
 
 
