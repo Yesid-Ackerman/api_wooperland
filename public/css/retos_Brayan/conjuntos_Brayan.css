@@ -1,0 +1,177 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5cc70;
+    margin: 0;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    left: 200px;
+    
+    background-color: #f5cc70;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.subject1{
+
+    /* Ellipse 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 486px;
+height: 461px;
+left: 100px;
+top: 100px;
+border-radius: 50%;
+background: #FFFDD2;
+border: 1px solid #000000;
+
+}
+.subject1 img{
+
+
+position: absolute;
+width: 251px;
+height: 149px;
+left: 207px;
+top: 20px;
+
+
+}
+.subject2{
+    /* Ellipse 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 486px;
+height: 461px;
+left: 688px;
+top: 100px;
+border-radius: 50%;
+background: #FFB9B9;
+border: 1px solid #000000;
+
+}
+
+.subject2 img{
+    
+position: absolute;
+width: 251px;
+height: 149px;
+left: 207px;
+top: 20px;
+
+
+}
+
+.cereza img{
+/* cereza 1 */
+
+position: absolute;
+width: 189px;
+height: 189px;
+left: 0px;
+top: 502px;
+
+}
+.fresa img{
+    /* fresa 1 */
+
+position: absolute;
+width: 177px;
+height: 192px;
+left: 500px;
+top: 466px;
+}
+.manzana img{
+    /* manzana 1 */
+
+position: absolute;
+width: 151px;
+height: 174px;
+left: 1100px;
+top: 529px;
+}
+
+.mango img{
+    /* mango 1 */
+
+position: absolute;
+width: 135px;
+height: 135px;
+left: 233px;
+top: 606px;
+}
+
+.banana img{
+    /* banana 1 */
+
+position: absolute;
+width: 167px;
+height: 167px;
+left: 550px;
+top:100px;
+}
+.limon img{
+    /* limon 1 */
+
+position: absolute;
+width: 159px;
+height: 147px;
+left: 729px;
+top: 600px;
+}
+
+.wooper img{
+    /* image 299 */
+
+position: absolute;
+width: 450px;
+height: 450px;
+left: 786px;
+top: 320px;
+
+}
+
+.dialogo2 img{
+    /* image 233 */
+
+position: absolute;
+width: 611px;
+height: 439px;
+left: 277px;
+top: 154px;
+
+}
+
+.dialogo2 h1{
+  
+
+position: absolute;
+width: 505px;
+height: 210px;
+left: 336px;
+top: 223px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+
+}

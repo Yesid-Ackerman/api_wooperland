@@ -13,6 +13,8 @@ use App\Http\Controllers\EligeTemasController;
 use App\Http\Controllers\FotoPerfilController;
 use App\Http\Controllers\GeneralController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\NivelesController;
+use App\Http\Controllers\RetosController;
 use App\Http\Controllers\StoreController;
 use App\Http\Controllers\TemaController;
 use App\Http\Controllers\TemasController;
@@ -76,3 +78,40 @@ Route::get('/teminos',[LoginController::class,'terminos'])->name('terminos');
 
 //ARTICULOS
 Route::get('/article',[StoreController::class,'article'])->name('article');
+
+//NIVELES (BRAYAN) 
+Route::get('/isla1-2',[NivelesController::class,'isla1_2'])->name('isla1-2');
+Route::get('/isla3-4',[NivelesController::class,'isla3_4'])->name('isla3-4');
+Route::get('/isla5-6',[NivelesController::class,'isla5_6'])->name('isla5-6');
+Route::get('/isla7-8',[NivelesController::class,'isla7_8'])->name('isla7-8');
+
+//ISLAS (Brayan)
+Route::get('/nivel1',[NivelesController::class,'nivel1'])->name('nivel1');
+Route::get('/nivel1-1',[NivelesController::class,'nivel1_1'])->name('nivel1-1');
+Route::get('/nivel2',[NivelesController::class,'nivel2'])->name('nivel2');
+Route::get('/nivel2-1',[NivelesController::class,'nivel2_1'])->name('nivel2-1');
+
+Route::get('/nivel3',[NivelesController::class,'nivel3'])->name('nivel3');
+Route::get('/nivel3-1',[NivelesController::class,'nivel3_1'])->name('nivel3-1');
+Route::get('/nivel4',[NivelesController::class,'nivel4'])->name('nivel4');
+Route::get('/nivel4-1',[NivelesController::class,'nivel4_1'])->name('nivel4-1');
+
+Route::get('/nivel5',[NivelesController::class,'nivel5'])->name('nivel5');
+Route::get('/nivel5-1',[NivelesController::class,'nivel5_1'])->name('nivel5-1');
+Route::get('/nivel6',[NivelesController::class,'nivel6'])->name('nivel6');
+Route::get('/nivel6-1',[NivelesController::class,'nivel6_1'])->name('nivel6-1');
+
+Route::get('/nivel7',[NivelesController::class,'nivel7'])->name('nivel7');
+Route::get('/nivel7-1',[NivelesController::class,'nivel7_1'])->name('nivel7-1');
+Route::get('/nivel8',[NivelesController::class,'nivel8'])->name('nivel8');
+Route::get('/nivel8-1',[NivelesController::class,'nivel8_1'])->name('nivel8-1');
+
+
+//RETOS(BRAYAN SOLARTE)
+
+Route::get('/conjuntos',[RetosController::class,'conjuntos'])->name('conjuntos');
+Route::get('/conjuntos-result',[RetosController::class,'conjuntos_result'])->name('conjuntos-result');
+Route::get('/conjuntos-result2',[RetosController::class,'conjuntos_result2'])->name('conjuntos-result2');
+Route::get('/conjuntos-result3',[RetosController::class,'conjuntos_result3'])->name('conjuntos-result3');
+Route::get('/reto-nuevo',[RetosController::class,'reto_nuevo'])->name('reto-nuevo');
+Route::get('/reto-principal',[RetosController::class,'reto_principal'])->name('reto-principal');

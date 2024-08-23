@@ -1,0 +1,271 @@
+
+body{
+
+    background-image: url("../../imgs/niveles/fondo2.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    font-family: 'Pajji', sans-serif;
+}
+
+.container {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    left: 200px;
+    top: 50px;
+}
+.level1{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+/* Ellipse 15 */
+box-sizing: border-box;
+position: absolute;
+width: 263px;
+height: 255px;
+left: 100px;
+top: 125px;
+
+background: #C3BF5B;
+border: 1px solid #000000;
+
+border-radius: 50%;
+z-index: -1;
+
+}
+
+.level1 h1{
+    position: absolute;
+    font-family: 'Pajji', sans-serif;
+    font-weight: bold;
+    font-size: 128px;
+    line-height: 225px;
+    margin: 0%;
+    color: #000000;
+    z-index: 0;
+    
+}
+.level2{
+display: flex;
+justify-content: center;
+align-items: center;
+/* Ellipse 14 */
+
+box-sizing: border-box;
+position: absolute;
+width: 268px;
+height: 255px;
+left: 525px;
+top: 125px;
+
+background: #3D4D5C;
+border: 1px solid #000000;
+border-radius: 50%;
+z-index: -1;
+
+}
+
+.level2 img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    bottom: 10px;
+    z-index: 0;
+}
+
+.level3{
+/* Ellipse 16 */
+display: flex;
+justify-content: center;
+align-items: center;
+/* Ellipse 16 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 263px;
+height: 255px;
+left: 972px;
+top: 125px;
+
+background: #3D4D5C;
+border: 1px solid #000000;
+
+border-radius: 50%;
+z-index: -1;
+overflow: hidden;
+
+}
+
+.level3 img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    bottom: 10px;
+    z-index: 0;
+} 
+
+.wooper1{
+/* OIG4-removebg-preview 2 */
+
+position: absolute;
+width: 400px;
+height: 400px;
+left: 870px;
+top: 420px;
+z-index: 2;
+}
+
+.desMatematicas{
+
+    /* Group 157 */
+
+position: absolute;
+width: 733.67px;
+height: 328px;
+left: 330px;
+top: 189px;
+
+z-index: 3;
+}
+.cerrar{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    left: 1000px;
+    top: 210px;
+    z-index: 4;
+
+}
+.cerrar img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+.estrella1{
+
+
+/* image 214 */
+
+position: absolute;
+width: 70px;
+height: 70px;
+left: 40px;
+top: 380px;
+
+z-index: -1;
+
+}
+
+.estrella2{
+/* image 216 */
+
+position: absolute;
+width: 117px;
+height: 93px;
+left: 110px;
+top: 400px;
+z-index: -0;
+
+}
+.estrella3{
+/* image 215 */
+
+position: absolute;
+width: 89px;
+height: 69px;
+left: 230px;
+top: 380px;
+z-index: -1;
+
+}
+
+.estrella4{
+    /* image 211 */
+
+position: absolute;
+width: 96px;
+height: 78px;
+left: 480px;
+top: 380px;
+z-index: -1;
+
+}
+
+.estrella5{
+    /* image 213 */
+
+position: absolute;
+width: 117px;
+height: 93px;
+left: 540px;
+top: 400px;
+z-index: 0;
+
+}
+.estrella6{
+    /* image 212 */
+
+position: absolute;
+width: 90px;
+height: 69px;
+left: 650px;
+top: 380px;
+z-index: -1;
+}
+
+.estrella7{
+/* image 209 */
+
+position: absolute;
+width: 95px;
+height: 78px;
+left: 920px;
+top: 380px;
+z-index: -1;
+}
+
+.estrella8{
+    /* image 208 */
+
+position: absolute;
+width: 116px;
+height: 93px;
+left: 990px;
+top: 400px;
+z-index: 0;
+}
+
+.estrella9{
+    /* image 210 */
+
+position: absolute;
+width: 96px;
+height: 78px;
+left: 1100px;
+top: 386px;
+z-index: -1;
+}
+
+.flecha{
+    /* image 237 */
+position: absolute;
+width: 100px;
+height: 100px;
+left: 0px;
+top: 20px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+
+

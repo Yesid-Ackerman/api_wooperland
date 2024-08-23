@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5cc70;
+    margin: 0;
+}
+.container {
+    
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+    grid-template-rows:85% 15% ;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    
+    background-color: #f5cc70;
+    border-radius: 20px;
+    z-index: 1;
+}
+.subject {
+    
+    margin: 50px;
+    width: 80%;
+    height: 90%;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    
+}
+.subject img {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.titulo1 button img{
+/* image 221 */
+
+position: absolute;
+bottom: 90px;
+left: 450px;
+width: 115px;
+height: 115px;
+}
+.titulo2 button img{
+    /* image 221 */
+    
+    position: absolute;
+    bottom: 90px;
+    left: 1000px;
+    width: 115px;
+    height: 115px;
+   
+    }
+
+.titulo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 412px;
+    height: 50px;
+    
+}
+.titulo1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 412px;
+    height: 100px;
+    
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 100px;
+    
+}
+.titulo2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 412px;
+    height: 100px;
+    left: 50px;
+    
+}
+.boton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 650px;
+    left: 600px;
+    z-index: 3;
+}
+.boton1 img{
+    
+    width: 120px;
+    height: 120px;
+    z-index: 4;
+}
+.boton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 650px;
+    left: 1500px;
+    z-index: 3;
+}
+.boton2 img{
+    
+    width: 120px;
+    height: 120px;
+    z-index: 4;
+}
+
+.recorrido{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 100px;
+    z-index: 1;
+}
+.recorrido img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    
+}
+.flecha_izquierda{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    top: 10%;
+    left: 0px;
+    cursor: pointer;
+    z-index: 3;
+}
+.flecha_derecha{
+
+position: absolute;
+width: 125px;
+height: 125px;
+top: 10%;
+left: 1700px;
+cursor: pointer;
+transform: rotate(-180deg);
+z-index: 3;
+}
+
+
+
+
+

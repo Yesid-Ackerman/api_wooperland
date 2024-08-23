@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5cc70;
+    margin: 0;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    left: 200px;
+    
+    background-color: #f5cc70;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.subject1{
+
+    /* Ellipse 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 486px;
+height: 461px;
+left: 100px;
+top: 100px;
+border-radius: 50%;
+background: #FFFDD2;
+border: 1px solid #000000;
+
+}
+.subject1 img{
+
+
+position: absolute;
+width: 251px;
+height: 149px;
+left: 207px;
+top: 20px;
+
+
+}
+.subject2{
+    /* Ellipse 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 486px;
+height: 461px;
+left: 688px;
+top: 100px;
+border-radius: 50%;
+background: #FFB9B9;
+border: 1px solid #000000;
+
+}
+
+.subject2 img{
+    
+position: absolute;
+width: 251px;
+height: 149px;
+left: 207px;
+top: 20px;
+
+
+}
+
+.subject2 .cereza img{
+/* cereza 1 */
+
+position: absolute;
+width: 189px;
+height: 189px;
+left: 20px;
+top: 200px;
+}
+.subject2 .fresa img{
+    /* fresa 1 */
+
+position: absolute;
+width: 177px;
+height: 192px;
+left: 270px;
+top: 150px;
+}
+.subject2 .manzana img{
+    /* manzana 1 */
+
+position: absolute;
+width: 151px;
+height: 174px;
+left: 100px;
+top: 10px;
+}
+
+.subject1 .mango img{
+    /* mango 1 */
+
+position: absolute;
+width: 135px;
+height: 135px;
+left: 150px;
+top: 50px;
+}
+
+.subject1 .banana img{
+    /* banana 1 */
+
+position: absolute;
+width: 167px;
+height: 167px;
+left: 200px;
+top:200px;
+}
+.subject1 .limon img{
+    /* limon 1 */
+
+position: absolute;
+width: 159px;
+height: 147px;
+left: 40px;
+top: 150px;
+}
+
+.container h1{
+    /* 3 */
+
+position: absolute;
+width: 145px;
+height: 160px;
+left: 300px;
+top: 550px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 96px;
+
+color: #000000;
+
+
+}
+
+.container h2{
+    /* 3 */
+
+position: absolute;
+width: 145px;
+height: 160px;
+left: 900px;
+top: 540px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 96px;
+
+color: #000000;
+
+
+}
+

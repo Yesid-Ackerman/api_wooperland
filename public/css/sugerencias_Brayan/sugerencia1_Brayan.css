@@ -1,0 +1,515 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+    background-image: url("../../imgs/sugerencias/fondo1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boton1{
+    /* Group 48 */
+
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 60px;
+height: 60px;
+left: 1500px;
+top: 100px;
+background-color:  #5BAA58;
+border-radius: 50%;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.boton1 img{
+    /* 545682 2 */
+
+position: absolute;
+justify-content: center;
+align-items: center;
+width: 50px;
+height: 50px;
+top: 9px;
+left: 10px;
+}
+
+.titulo1 img{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 419px;
+height: 125px;
+left: 150px;
+top: 80px;
+}
+
+.titulo1 h1{
+    /* Sugerencias */
+
+position: absolute;
+width: 347px;
+height: 82px;
+left: 200px;
+top: 75px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    width: 1000px;
+    height: 600px;
+    left: 200px;
+    margin: 50px;
+    top: 100px;
+}
+
+.matematicas{
+    /* Rectangle 2 */
+
+position: absolute;
+justify-content: center;
+align-items: center;
+width: 580px;
+height: 69px;
+left: 28px;
+top: 100px;
+
+background: #5BAA58;
+border-radius: 20px;
+
+}
+.matematicas img{
+    /* mate 1 */
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 30px;
+top: 10px;
+
+}
+.matematicas h1{
+    /* Matemáticas */
+
+position: absolute;
+width: 382px;
+height: 41px;
+left: 126px;
+top: -5px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+}
+
+.matematicas .admiracion{
+    /* image 301 */
+
+position: absolute;
+width: 50px;
+height: 45px;
+left: 500px;
+top: 0px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 306px;
+
+}
+
+.lenguaje{
+/* Rectangle 7 */
+
+position: absolute;
+width: 580px;
+height: 68px;
+left: 28px;
+top: 200px;
+
+background: #5BAA58;
+border-radius: 20px;
+
+}
+.lenguaje img{
+/* lengua 1 */
+
+position: absolute;
+width: 50px;
+height: 46px;
+left: 30px;
+top: 10px;
+}
+.lenguaje h1{
+    /* Matemáticas */
+
+position: absolute;
+width: 382px;
+height: 41px;
+left: 126px;
+top: -5px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+}
+
+
+.ciencias{
+    /* Rectangle 7 */
+    
+    position: absolute;
+    width: 580px;
+    height: 68px;
+    left: 28px;
+    top: 300px;
+    
+    background: #5BAA58;
+    border-radius: 20px;
+    
+    }
+    .ciencias img{
+    /* lengua 1 */
+    
+    position: absolute;
+    width: 50px;
+    height: 46px;
+    left: 30px;
+    top: 10px;
+    }
+    .ciencias h1{
+        /* Matemáticas */
+    
+    position: absolute;
+    width: 382px;
+    height: 41px;
+    left: 126px;
+    top: -5px;
+    
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #000000;
+    
+    }
+
+    .arte{
+        /* Rectangle 7 */
+        
+        position: absolute;
+        width: 580px;
+        height: 68px;
+        left: 28px;
+        top: 400px;
+        
+        background: #5BAA58;
+        border-radius: 20px;
+        
+        }
+        .arte img{
+        /* lengua 1 */
+        
+        position: absolute;
+        width: 50px;
+        height: 46px;
+        left: 30px;
+        top: 10px;
+        }
+        .arte h1{
+            /* Matemáticas */
+        
+        position: absolute;
+        width: 382px;
+        height: 41px;
+        left: 126px;
+        top: -5px;
+        
+        font-family: 'Happy Monkey';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        
+        color: #000000;
+        
+        }
+        .arte .admiracion{
+            /* image 301 */
+        
+        position: absolute;
+        width: 50px;
+        height: 45px;
+        left: 500px;
+        top: 0px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 306px;
+        
+        }
+
+        .historia{
+            /* Rectangle 7 */
+            
+            position: absolute;
+            width: 580px;
+            height: 68px;
+            left: 28px;
+            top: 500px;
+            
+            background: #5BAA58;
+            border-radius: 20px;
+            
+            }
+            .historia img{
+            /* lengua 1 */
+            
+            position: absolute;
+            width: 50px;
+            height: 46px;
+            left: 30px;
+            top: 10px;
+            }
+            .historia h1{
+                /* Matemáticas */
+            
+            position: absolute;
+            width: 382px;
+            height: 41px;
+            left: 126px;
+            top: -5px;
+            
+            font-family: 'Happy Monkey';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 39px;
+            
+            color: #000000;
+            
+            }
+
+            .astronomia{
+                /* Rectangle 7 */
+                
+                position: absolute;
+                width: 580px;
+                height: 68px;
+                left: 700px;
+                top: 100px;
+                
+                background: #5BAA58;
+                border-radius: 20px;
+                
+                }
+                .astronomia img{
+                /* lengua 1 */
+                
+                position: absolute;
+                width: 50px;
+                height: 46px;
+                left: 30px;
+                top: 10px;
+                }
+                .astronomia  h1{
+                    /* Matemáticas */
+                
+                position: absolute;
+                width: 382px;
+                height: 41px;
+                left: 126px;
+                top: -5px;
+                
+                font-family: 'Happy Monkey';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 39px;
+                
+                color: #000000;
+                
+                }
+                .geografia{
+                    /* Rectangle 7 */
+                    
+                    position: absolute;
+                    width: 580px;
+                    height: 68px;
+                    left: 700px;
+                    top: 200px;
+                    
+                    background: #5BAA58;
+                    border-radius: 20px;
+                    
+                    }
+                    .geografia img{
+                    /* lengua 1 */
+                    
+                    position: absolute;
+                    width: 50px;
+                    height: 50px;
+                    left: 30px;
+                    top: 10px;
+                    }
+                    .geografia  h1{
+                        /* Matemáticas */
+                    
+                    position: absolute;
+                    width: 382px;
+                    height: 41px;
+                    left: 126px;
+                    top: -5px;
+                    
+                    font-family: 'Happy Monkey';
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 32px;
+                    line-height: 39px;
+                    
+                    color: #000000;
+                    
+                    }
+                    .programacion{
+                        /* Rectangle 7 */
+                        
+                        position: absolute;
+                        width: 580px;
+                        height: 68px;
+                        left: 700px;
+                        top: 300px;
+                        
+                        background: #5BAA58;
+                        border-radius: 20px;
+                        
+                        }
+                        .programacion img{
+                        /* lengua 1 */
+                        
+                        position: absolute;
+                        width: 50px;
+                        height: 50px;
+                        left: 30px;
+                        top: 10px;
+                        }
+                        .programacion  h1{
+                            /* Matemáticas */
+                        
+                        position: absolute;
+                        width: 382px;
+                        height: 41px;
+                        left: 126px;
+                        top: -5px;
+                        
+                        font-family: 'Happy Monkey';
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 32px;
+                        line-height: 39px;
+                        
+                        color: #000000;
+                        
+                        }
+                        .acertijos{
+                            /* Rectangle 7 */
+                            
+                            position: absolute;
+                            width: 580px;
+                            height: 68px;
+                            left: 700px;
+                            top: 400px;
+                            
+                            background: #5BAA58;
+                            border-radius: 20px;
+                            
+                            }
+                            .acertijos img{
+                            /* lengua 1 */
+                            
+                            position: absolute;
+                            width: 50px;
+                            height: 50px;
+                            left: 30px;
+                            top: 10px;
+                            }
+                            .acertijos  h1{
+                                /* Matemáticas */
+                            
+                            position: absolute;
+                            width: 382px;
+                            height: 41px;
+                            left: 126px;
+                            top: -5px;
+                            
+                            font-family: 'Happy Monkey';
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 32px;
+                            line-height: 39px;
+                            
+                            color: #000000;
+                            
+                            }
+                            .tecnologia{
+                                /* Rectangle 7 */
+                                
+                                position: absolute;
+                                width: 580px;
+                                height: 68px;
+                                left: 700px;
+                                top: 500px;
+                                
+                                background: #5BAA58;
+                                border-radius: 20px;
+                                
+                                }
+                                .tecnologia img{
+                                /* lengua 1 */
+                                
+                                position: absolute;
+                                width: 50px;
+                                height: 50px;
+                                left: 30px;
+                                top: 10px;
+                                }
+                                .tecnologia  h1{
+                                    /* Matemáticas */
+                                
+                                position: absolute;
+                                width: 382px;
+                                height: 41px;
+                                left: 126px;
+                                top: -5px;
+                                
+                                font-family: 'Happy Monkey';
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 32px;
+                                line-height: 39px;
+                                
+                                color: #000000;
+                                
+                                }

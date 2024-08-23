@@ -1,0 +1,239 @@
+body{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color:rgb(174, 232, 250);
+    background-image: url("../../imgs/retos/fondo1.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    opacity: 0.5;
+
+}
+
+
+.flecha{
+    /* Group 48 */
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 50.01px;
+height: 48.79px;
+left: 14px;
+top: 33px;
+border-radius: 50%;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background-color: rgb(112, 212, 219);
+transform: rotate(-180deg);
+z-index:1;
+}
+
+.flecha img{
+/* 545682 2 */
+
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 37.5px;
+height: 36.6px;
+}
+
+.fondo2{
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    width: 647px;
+    height: 900px;
+
+}
+
+.fondo2 img{
+    position: absolute;
+width: 647px;
+height: 170px;
+left: 0%;
+bottom: 0px;
+margin: 0%;
+}
+.wooper-reto{
+    /* image 299 */
+
+position: absolute;
+width: 415px;
+height: 415px;
+left: 371px;
+top: 400px;
+}
+
+.contexto h1{
+    /* Desafío de la semana */
+
+position: absolute;
+width: 638px;
+height: 84px;
+left: 640px;
+top: 138px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+
+font-weight: 400;
+font-size: 40px;
+font-weight: bold;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.contexto img{
+    /* image 233 */
+
+position: absolute;
+width: 697px;
+height: 264px;
+left: 600px;
+top: 253px;
+
+
+}
+
+.contexto h2{
+    /* Desafío de conjuntos de números, aprende a organizar y agrupar objetos según sus características */
+
+position: absolute;
+width: 554px;
+height: 129px;
+left: 643px;
+top: 287px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.boton img{
+    /* Rectangle 2 */
+
+position: relative;
+width: 356px;
+height: 151px;
+left: 819px;
+top: 548px;
+
+z-index: 2;
+
+}
+.boton h1{
+    /* Vamos */
+
+position: absolute;
+width: 186px;
+height: 65px;
+left: 930px;
+top: 580px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+z-index: 3;
+}
+
+.anuncio{
+    /* Rectangle 98 */
+display: flex;
+justify-content: center;
+position: absolute;
+width: 622px;
+height: 735px;
+left: 600px;
+top: 54px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+}
+.anuncio h1{
+    /* Vuelve en 24 horas */
+
+position: absolute;
+display: flex;
+justify-content: center;
+width: 480px;
+height: 66px;
+
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+
+}
+.anuncio img{
+    /* reloj 1 */
+
+position: absolute;
+justify-content: center;
+align-items: center;
+width: 278px;
+height: 286px;
+left: 180px;
+top: 200px;
+
+}
+
+.boton2 img{
+    /* Rectangle 2 */
+display: flex;
+position: absolute;
+width: 363px;
+height: 188px;
+left: 150px;
+top: 500px;
+}
+
+.boton2 h1{
+    /* Regresar */
+
+position: absolute;
+width: 244px;
+height: 66px;
+left: 200px;
+top: 530px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}

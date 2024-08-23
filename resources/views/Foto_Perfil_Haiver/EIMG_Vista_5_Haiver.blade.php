@@ -5,8 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css"
-        href="{{ asset('css/style_Foto_Perfil_Haiver/style_EIMG_Vista_5_Haiver.css ') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style_Foto_Perfil_Haiver/style_EIMG_Vista_5_Haiver.css ') }}" />
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
 </head>
 

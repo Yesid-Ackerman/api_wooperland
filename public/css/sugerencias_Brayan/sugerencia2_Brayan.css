@@ -1,0 +1,236 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        background-image: url("../../imgs/sugerencias/fondo1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .boton1{
+        /* Group 48 */
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    left: 1500px;
+    top: 100px;
+    background-color:  #5BAA58;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    }
+    .boton1 img{
+        /* 545682 2 */
+    
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    top: 9px;
+left: 10px;
+    }
+    
+    .titulo1 img{
+        /* Rectangle 1 */
+    
+    position: absolute;
+    width: 419px;
+    height: 125px;
+    left: 150px;
+    top: 80px;
+    }
+    
+    .titulo1 h1{
+        /* Sugerencias */
+    
+    position: absolute;
+    width: 347px;
+    height: 82px;
+    left: 200px;
+    top: 75px;
+    
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    
+        width: 1000px;
+        height: 600px;
+        left: 0px;
+        margin: 50px;
+        top: 100px;
+    }
+
+    .wooper{
+        /* image 300 */
+position: absolute;
+width: 421px;
+height: 421px;
+left: 0px;
+top: 300px;
+    }
+
+    .dialogo img{
+        /* image 233 */
+
+position: absolute;
+width: 626px;
+height: 439px;
+left: 400px;
+top: 60px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    }
+
+    .dialogo h1{
+        /* Veo que tienes dificuldades con el aréa de matemáticas, te sugiero que practiques tus habilidades con los siguientes juegos de matemáticas */
+
+position: absolute;
+width: 537px;
+height: 254px;
+left: 420px;
+top: 110px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+
+color: #000000;
+    }
+    .conjunto img{
+/* conjuntos 1 */
+
+position: absolute;
+width: 174px;
+height: 170px;
+left: 600px;
+top: 460px;
+    }
+    .conjunto h1{
+        /* Conjuntos */
+
+position: absolute;
+width: 232px;
+height: 69px;
+left: 620px;
+top: 610px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    }
+
+.rompecabezas img{
+position: absolute;
+width: 170px;
+height: 170px;
+left: 900px;
+top: 460px;
+
+}
+
+.rompecabezas h1{
+position: absolute;
+width: 351px;
+height: 69px;
+left: 900px;
+top: 610px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.restar img{
+    /* resta 1 */
+
+position: absolute;
+width: 170px;
+height: 170px;
+left: 1200px;
+top: 460px;
+}
+
+.restar h1{
+    position: absolute;
+width: 351px;
+height: 69px;
+left: 1250px;
+top: 610px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.sumar img{
+position: absolute;
+width: 159.52px;
+height: 137px;
+left: 1200px;
+top: 100px;
+}
+
+.sumar h1{
+/* Suma */
+
+position: absolute;
+width: 139px;
+height: 99px;
+left: 1250px;
+top: 220px;
+
+font-family: 'Happy Monkey';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
