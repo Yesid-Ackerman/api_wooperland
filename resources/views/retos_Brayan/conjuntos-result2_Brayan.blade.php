@@ -17,15 +17,15 @@
         <div class="subject1">
             <img src="{{ asset('imgs/retos/brillo1.png') }}" alt="brillo amarillo">
 
-            <div class="mango"><a href="../retos/conjuntos-result3.html">
+            <div class="mango"><a href="{{ route('conjuntos-result3') }}">
                     <img src="{{ asset('imgs/retos/mango.png') }}" alt="mango">
                 </a>
             </div>
-            <div class="banana"><a href="../retos/conjuntos-result3.html">
+            <div class="banana"><a href="{{ route('conjuntos-result3') }}">
                     <img src="{{ asset('imgs/retos/banana.png') }}" alt="banana">
                 </a>
             </div>
-            <div class="limon"><a href="../retos/conjuntos-result3.html">
+            <div class="limon"><a href="{{ route('conjuntos-result3') }}">
                     <img src="{{ asset('imgs/retos/limon.png') }}" alt="limon">
                 </a>
             </div>
@@ -35,17 +35,17 @@
             <img src="{{ asset('imgs/retos/brillo2.png') }}" alt="brillo rojo">
 
 
-            <div class="cereza"><a href="../retos/conjuntos-result3.html">
+            <div class="cereza"><a href="{{ route('conjuntos-result3') }}">
                     <img src="{{ asset('imgs/retos/cereza.png') }}" alt="cereza">
                 </a>
             </div>
             <div class="fresa">
-                <a href="../retos/conjuntos-result3.html">
+                <a href="{{ route('conjuntos-result3') }}">
                     <img src="{{ asset('imgs/retos/fresa.png') }}" alt="fresa">
                 </a>
             </div>
             <div class="manzana">
-                <a href="../retos/conjuntos-result3.html">
+                <a href="{{ route('conjuntos-result3') }}">
                     <img src="{{ asset('imgs/retos/manzana.png') }}" alt="manzana">
                 </a>
             </div>

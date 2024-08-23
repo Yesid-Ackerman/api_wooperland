@@ -15,7 +15,7 @@
         <div class="fondo2">
             <img src="{{ asset('imgs/retos/fondo2.png') }}"  alt="rocas">
         </div>
-        <div class="flecha"><a href="../../home/home.html">
+        <div class="flecha"><a href="{{ route('home') }}" >
                 <img src="{{ asset('imgs/retos/flecha.png') }}"  alt="flecha">
             </a>
         </div>
@@ -30,7 +30,7 @@
                 aprende a organizar y agrupar <br>
                 objetos según sus características </h2>
         </div>
-        <div class="boton"><a href="../retos/conjuntos.html">
+        <div class="boton"><a href="{{ route('conjuntos') }}" >
                 <img src="{{ asset('imgs/retos/boton.png') }}"  alt="boton de incio del reto">
                 <h1>Vamos</h1>
             </a>

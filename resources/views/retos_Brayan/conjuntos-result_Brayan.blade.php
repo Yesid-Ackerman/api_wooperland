@@ -10,29 +10,29 @@
 </head>
 <body>       
     <div class="container">
-        <div class="cereza"><a href="../retos/conjuntos-result_Brayan.bladee.php">
+        <div class="cereza"><a href="{{ route('conjuntos-result2') }}">
             <img src="{{ asset('imgs/retos/cereza.png') }}" alt="cereza">
         </a>
     </div>
     <div class="fresa">
-        <a href="../retos/conjuntos-result.html">
+        <a href="{{ route('conjuntos-result2') }}">
             <img src="{{ asset('imgs/retos/fresa.png') }}" alt="fresa">
         </a>
     </div>
     <div class="manzana">
-        <a href="../retos/conjuntos-result.html">
+        <a href="{{ route('conjuntos-result2') }}">
             <img src="{{ asset('imgs/retos/manzana.png') }}" alt="manzana">
         </a>
     </div>
-    <div class="mango"><a href="../retos/conjuntos-result.html">
+    <div class="mango"><a href="{{ route('conjuntos-result2') }}">
             <img src="{{ asset('imgs/retos/mango.png') }}" alt="mango">
         </a>
     </div>
-    <div class="banana"><a href="../retos/conjuntos-result.html">
+    <div class="banana"><a href="{{ route('conjuntos-result2') }}">
             <img src="{{ asset('imgs/retos/banana.png') }}" alt="banana">
         </a>
     </div>
-    <div class="limon"><a href="../retos/conjuntos-result.html">
+    <div class="limon"><a href="{{ route('conjuntos-result2') }}">
             <img src="{{ asset('imgs/retos/limon.png') }}" alt="limon">
         </a>
     </div>

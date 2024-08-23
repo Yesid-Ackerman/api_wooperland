@@ -12,29 +12,29 @@
 
 <body>
     <div class="container">
-        <div class="cereza"><a href="../retos/conjuntos-result_Brayan.bladee.php">
+        <div class="cereza"><a href="{{ route('conjuntos-result') }}">
                 <img src="{{ asset('imgs/retos/cereza.png') }}" alt="cereza">
             </a>
         </div>
         <div class="fresa">
-            <a href="../retos/conjuntos-result.html">
+            <a href="{{ route('conjuntos-result') }}">
                 <img src="{{ asset('imgs/retos/fresa.png') }}" alt="fresa">
             </a>
         </div>
         <div class="manzana">
-            <a href="../retos/conjuntos-result.html">
+            <a href="{{ route('conjuntos-result') }}">
                 <img src="{{ asset('imgs/retos/manzana.png') }}" alt="manzana">
             </a>
         </div>
-        <div class="mango"><a href="../retos/conjuntos-result.html">
+        <div class="mango"><a href="{{ route('conjuntos-result') }}">
                 <img src="{{ asset('imgs/retos/mango.png') }}" alt="mango">
             </a>
         </div>
-        <div class="banana"><a href="../retos/conjuntos-result.html">
+        <div class="banana"><a href="{{ route('conjuntos-result') }}">
                 <img src="{{ asset('imgs/retos/banana.png') }}" alt="banana">
             </a>
         </div>
-        <div class="limon"><a href="../retos/conjuntos-result.html">
+        <div class="limon"><a href="{{ route('conjuntos-result') }}">
                 <img src="{{ asset('imgs/retos/limon.png') }}" alt="limon">
             </a>
         </div>
@@ -47,7 +47,7 @@
         <div class="wooper">
             <img src="{{ asset('imgs/retos/wooper.reto.png') }}" alt="wooper reto">
         </div>
-        <div class="dialogo2"><a href="../retos/conjuntos-result.html">
+        <div class="dialogo2"><a href="{{ route('conjuntos-result') }}">
                 <img src="{{ asset('imgs/retos/dialogo2.png') }}" alt="glo de texto2">
                 <h1>Para tener exíto en este desafío<br>
                     tienes que organizar las frutas<br>

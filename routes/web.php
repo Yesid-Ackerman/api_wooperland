@@ -16,6 +16,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\NivelesController;
 use App\Http\Controllers\RetosController;
 use App\Http\Controllers\StoreController;
+use App\Http\Controllers\SugerenciasController;
 use App\Http\Controllers\TemaController;
 use App\Http\Controllers\TemasController;
 use Illuminate\Support\Facades\Route;
@@ -115,3 +116,8 @@ Route::get('/conjuntos-result2',[RetosController::class,'conjuntos_result2'])->n
 Route::get('/conjuntos-result3',[RetosController::class,'conjuntos_result3'])->name('conjuntos-result3');
 Route::get('/reto-nuevo',[RetosController::class,'reto_nuevo'])->name('reto-nuevo');
 Route::get('/reto-principal',[RetosController::class,'reto_principal'])->name('reto-principal');
+
+//SUGERENCIAS (BRAYAN SOLARTE)
+
+Route::get('/sugerencia1',[SugerenciasController::class,'sugerencia1'])->name('sugerencia1');
+Route::get('/sugerencia2',[SugerenciasController::class,'sugerencia2'])->name('sugerencia2');
